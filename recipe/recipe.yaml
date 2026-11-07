@@ -54,10 +54,11 @@ about:
     present on first run, which needs make, a C++ compiler and the CUDA or
     ROCm toolkit installed on the host. Use `--platform mock` to exercise
     the tooling with no GPU at all.
-  # Pantheon is Apache-2.0. It bundles one header of NVIDIA's Video Codec SDK,
+  # Pantheon is AGPL-3.0-only from the first release after v1.2.4 (v1.2.4 and
+  # earlier were Apache-2.0). It bundles one header of NVIDIA's Video Codec SDK,
   # nvEncodeAPI.h, which is MIT licensed. The notice is kept in the header and
   # the bundling is recorded in NOTICE.
-  license: Apache-2.0 AND MIT
+  license: AGPL-3.0-only AND MIT
   license_file:
     - LICENSE
     - NOTICE
