@@ -1,5 +1,5 @@
 context:
-  version: "1.2.4"
+  version: "1.2.5"
 
 package:
   name: pantheon-gpu
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pantheon-gpu/pantheon_gpu-${{ version }}.tar.gz
-  sha256: bc4202962bc15a54d9163729cad0c5ef954193f1506f88cbb9de3eb8363e9d57
+  sha256: a4602de6dcf266a74d9a46d1b187fe30b8d8886614efd9f56a352f0dff17917c
 
 build:
   noarch: python
